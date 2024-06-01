@@ -33,10 +33,10 @@ html, body{
     justify-content: space-evenly;
     align-items: center;
     padding: 25px 40px;
-    position: fixed; /* Fixa o elemento no topo da página */
+    position: fixed; /* Fixa o elemento */
     top: 0; /* Posiciona o elemento no topo */
-    width: 100%; /* Garante que a largura da header seja 100% da tela */
-    z-index: 1000; /* Garante que a header fique acima de outros elementos */
+    width: 100%;
+    z-index: 1000; /* faz a header sobrepor acima os outros elementos */
     
 }
 .header-lista a{
@@ -155,12 +155,12 @@ html, body{
     color: white;
     font-size: 10px;
     font-style: bold;
-    position: fixed; /* Fixa o elemento no topo da página */
+    position: fixed;
     left: 10px;
-    top: 10px; /* Posiciona o elemento no topo */
-    width: 60px; /* Garante que a largura da header seja 100% da tela */
-    z-index: 1000; /* Garante que a header fique acima de outros elementos */
-    border: 3px solid #f4eeee; /* Bordas para visualizar a caixa */
+    top: 10px;
+    width: 60px;
+    z-index: 1000;
+    border: 3px solid #f4eeee;
     padding: 10px;
     display: flex;
     align-items: center;
