@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200 ..1000&family=Orbitron:wght@400..900&family=Righteous&display=swap');
+
+/*font-family: "Notável", sans-serif; peso da fonte: 400; estilo de fonte: normal;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Notable&family=Nunito+Sans:ital,opsz,wght@0,6..12,200. .1000;1,6..12,200..1000&family=Orbitron:wght@400..900&family=Righteous&display=swap');
+
+/**/
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Notável", sans-serif;
+    font-size: 1rem;
+    color:white;
+    /*background: linear-gradient(to bottom, #2900ff, rgb(85, 70, 196));
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    background-image: url(./img/background4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.detalhes-links-creditos{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 250px;
+    gap: 55px;
+    text-align: center;
+}
+
+
+.detalhes{
+    font-size: 11px; 
+}
+
+.links a{
+    color: white;
+    padding: 15px;
+}
+
+.creditos a{
+    color: white;
+    
+
+}
+
+.button-voltar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    color: #f4eeee;
+    width: 70px;
+    height: 30px;
+    border: 2px solid #f4eeee; /* Bordas para visualizar a caixa */
+    border-radius: 8px;
+    font-size: 11px;
+
+
+}

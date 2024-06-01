@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200 ..1000&family=Orbitron:wght@400..900&family=Righteous&display=swap');
+
+/*font-family: "Notável", sans-serif; peso da fonte: 400; estilo de fonte: normal;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Notable&family=Nunito+Sans:ital,opsz,wght@0,6..12,200. .1000;1,6..12,200..1000&family=Orbitron:wght@400..900&family=Righteous&display=swap');
+
+/**/
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Notável", sans-serif;
+    font-size: 0.75rem;
+    color:white;
+    /*background: linear-gradient(to bottom, #2900ff, rgb(85, 70, 196));
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.sobre {
+    background-image: url(./img/background7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.sobre-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 15px 100px; /* Ajuste de padding conforme necessário */
+    font-size: 12px;
+    text-align: center;
+    transition: 1s;
+}
+
+.sobre-titulo:hover{
+    color: rgba(38, 182, 248, 0.651);
+}
+
+.sobre-titulo-txt {
+    display: flex;
+    justify-content: center;
+    padding: 15px 300px; /* Ajuste de padding conforme necessário */
+    font-size: 12px;
+    text-align: center;
+   
+}
+
+
+
+.sobre-img {
+    max-width: 25vh;
+    border-radius: 2%;
+}
+
+.academico {
+    padding: 25px;
+}
+
+.academico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-size: 10px;
+}
+
+.academico a{
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.contato-email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 15px;
+}
+
+.contato a{
+    color: #f4eeee;
+    width: 300px;
+    height: 30px;
+    border: 2px solid #f4eeee; /* Bordas para visualizar a caixa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* Fundo transparente */
+    border-radius: 8px;
+}
+
+
+/* Adicional: Responsividade */
+@media (max-width: 500px) {
+    .sobre {
+        gap: 10px; /* Menor espaço entre elementos em telas menores */
+    }
+    
+    .sobre-img {
+        width: 50vh; /* Ajusta o tamanho das imagens em telas menores */
+    }
+
+    .academico {
+        padding: 45px;
+    }
+
+    .sobre-titulo-txt{
+        width: 50vh;
+    }
+}
+
+.button-voltar a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
