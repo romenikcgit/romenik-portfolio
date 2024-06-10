@@ -9,6 +9,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    height: 100vh;
     font-family: "Notável", sans-serif;
     font-size: 1rem;
     color:white;
